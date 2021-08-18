@@ -3,10 +3,16 @@ body {
 }
 .headers {
   /* border: 2px solid red; */
-  height: 800px;
-  background-image: url("https://p0.pikist.com/photos/177/678/desert-night-starry-night-stars-landscape-nature-sky-universe-scenic.jpg");
+  min-height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp7529239.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
+  filter: contrast(1.2);
+}
+.App {
+  min-width: 100vw;
+  /* border: 2px solid red; */
+  box-sizing: content-box;
 }

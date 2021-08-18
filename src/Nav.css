@@ -1,24 +1,23 @@
 .nav {
-  height: 60px;
+  height: 10%;
 }
 
 .list {
   margin-top: 0px; /*list always has some top margin*/
-
   list-style: none;
   text-align: center;
 }
 .list li {
   display: inline-block; /*we cant change height for inline el*/
-  margin: 20px 50px 0px 10px; /*top right botom left*/
-  font-size: 1.1rem;
+  margin: 30px 60px 0px 10px; /*top right botom left*/
+  font-size: 1.25rem;
   font-weight: lighter;
   font-style: oblique;
 }
 
 .list li a {
   text-decoration: none;
-  color: gray;
+  color: lightgray;
   transition: 0.5s all;
 }
 

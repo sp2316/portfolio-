@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import Home from "./Home";
 import "../Nav.css";
 class Navbar extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      focus: true,
+    };
   }
 
   render() {
@@ -10,7 +14,7 @@ class Navbar extends Component {
       <div className="nav">
         <ul className="list">
           <li>
-            <a href=" ">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href=" ">About</a>
