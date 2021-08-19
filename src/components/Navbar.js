@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import "../Nav.css";
 class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      focus: true,
-    };
-  }
-
   render() {
+    const { home, about, skills, education, contact } = this.props;
     return (
       <div className="nav">
         <ul className="list">
           <li>
-            <a href="#home">Home</a>
+            {/* {home ? (
+              <a style={{ color: "red" }} href="">
+                Home
+              </a>
+            ) : ( */}
+            <a href="">Home</a>
+            {/* )} */}
           </li>
           <li>
             <a href=" ">About</a>

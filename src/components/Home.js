@@ -12,6 +12,7 @@ function Home(props) {
           scrolling and learn more about me.
         </h3>
         <Links />
+        {/* <h2>Scroll down!</h2> */}
       </div>
     </div>
   );

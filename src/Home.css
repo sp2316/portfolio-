@@ -9,6 +9,7 @@
   margin-left: auto;
   margin-right: auto;
   /* border: 2px solid red; */
+  position: relative;
 }
 #home-content h1 {
   padding-top: 100px;
@@ -26,6 +27,17 @@ h3 {
   word-spacing: 3px;
   letter-spacing: 1px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3::after {
+  transform: translateY(30px);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  content: "";
+  width: 300px;
 }
 b {
   color: wheat;
@@ -45,5 +57,10 @@ b {
     padding: 0px 10px 0 10px;
     font-size: 1.2rem;
     line-height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  h3::after {
+    width: 200px;
   }
 }
