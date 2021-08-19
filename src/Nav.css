@@ -9,7 +9,7 @@
 }
 .list li {
   display: inline-block; /*we cant change height for inline el*/
-  margin: 30px 60px 0px 10px; /*top right botom left*/
+  margin: 30px 50px 0px 10px; /*top right botom left*/
   font-size: 1.25rem;
   font-weight: lighter;
   font-style: oblique;

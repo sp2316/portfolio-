@@ -1,6 +1,6 @@
 import React from "react";
 import "../Home.css";
-
+import Links from "./Links";
 function Home(props) {
   return (
     <div style={styles} className="home" id="home">
@@ -11,6 +11,7 @@ function Home(props) {
           Hyderabad,India. I love to <b>design web pages</b>. Let's start
           scrolling and learn more about me.
         </h3>
+        <Links />
       </div>
     </div>
   );

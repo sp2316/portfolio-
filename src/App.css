@@ -16,3 +16,9 @@ body {
   /* border: 2px solid red; */
   box-sizing: content-box;
 }
+
+@media only screen and (max-width: 340px) {
+  .headers {
+    min-height: 120vh;
+  }
+}
