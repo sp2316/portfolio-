@@ -1,6 +1,7 @@
 import "../App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import About from "./About";
 import { useState } from "react";
 function App() {
   const [home, setHome] = useState(true);
@@ -25,6 +26,7 @@ function App() {
         />
         <Home />
       </div>
+      <About />
     </div>
   );
 }

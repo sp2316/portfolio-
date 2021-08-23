@@ -2,7 +2,6 @@ body {
   margin: 0px;
 }
 .headers {
-  /* border: 2px solid red; */
   min-height: 100vh;
   background-image: url("https://wallpapercave.com/wp/wp7529239.jpg");
   background-repeat: no-repeat;
@@ -14,7 +13,7 @@ body {
 .App {
   min-width: 100vw;
   /* border: 2px solid red; */
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 @media only screen and (max-width: 340px) {
@@ -22,3 +21,15 @@ body {
     min-height: 120vh;
   }
 }
+
+/* @media only screen and (max-width: 400px) {
+  .App {
+    min-width: 110vw;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .App {
+    min-width: 140vw;
+  }
+} */

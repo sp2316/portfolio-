@@ -16,7 +16,7 @@ class Navbar extends Component {
             {/* )} */}
           </li>
           <li>
-            <a href=" ">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href=" ">Skills</a>
